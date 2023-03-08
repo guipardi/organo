@@ -31,7 +31,7 @@ const Formulario = (props) => {
         imagem : imagem,
         time : time
     })
-
+ 
     return(
         <section className='formulario'>
             <form onSubmit={aoSalvar}>
